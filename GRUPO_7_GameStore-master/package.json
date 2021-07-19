@@ -1,0 +1,23 @@
+{
+  "name": "gamestore",
+  "version": "1.0.0",
+  "description": "Market place de Videojuegos para multiples consolas.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidAML3/GRUPO_7_GameStore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidAML3/GRUPO_7_GameStore/issues"
+  },
+  "homepage": "https://github.com/DavidAML3/GRUPO_7_GameStore#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
