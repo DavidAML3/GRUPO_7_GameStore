@@ -587,18 +587,26 @@ main #consoles-navbar  li a {
 
 
 #consoles-navbar .consoles li ul {
-  display: none;
+  
   position:absolute;
   min-width:140px;
   padding-left: 0px;
 }
-ul.xbox{
+.xbox{
   display: flex;
+}
+.play , .nintendo , .pc{
+  display: none;
 }
 
 #consoles-navbar .consoles li:hover > ul {
   display:flex;
 }
+
+#consoles-navbar .consoles .xbox:hover > .play , .nintendo , .pc {
+  display:none;
+}
+
 
 #consoles-navbar li a:hover {
   background-color:#434343;
