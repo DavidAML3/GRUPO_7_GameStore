@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head')%>
+<body>
+	<%- include('./partials/header')%>
+	<main>
+		<form action="/registrarse" method="POST" class="create-form">
+			<div class="control-formulario">
+				<label>Nombre de juego:</label>
+				<input type="text" name="nombre" class="control" required minlength="2" value="hajdkfjaf">
+			</div>
+			<div class="control-formulario">
+				<label>Plataforma:</label>
+				<select name="consola" required>
+					<option value="1"selected>Xbox</option>
+					<option value="2">PlayStation</option>
+					<option value="3">Nintendo</option>
+					<option value="4">PC</option>
+				</select>
+			</div>
+			<div class="control-formulario">
+				<label>Caratula:</label>
+				<input type="file" name="caratula" accept=".jpg" class="control" required>
+			</div>
+			<div class="control-formulario">
+				<label>Precio:</label>
+				<input type="text" name="precio" class="precio" required minlength="2">
+			</div>
+			<div class="control-formulario">
+				<label>Descripcion:</label>
+				<textarea name="descripcion" rows="10" cols="40" class="control" required>Escribe aquí la descripcion del videojuego</textarea>
+			</div>
+			<div class="control-formulario">
+				<label>Géneros del videojuego:</label>
+				<input type="checkbox" name="generos" value="Accion">Acción
+				<input type="checkbox" name="generos" value="Deportes">Deportes
+				<input type="checkbox" name="generos" value="RPG">RPG
+				<input type="checkbox" name="generos" value="Shooters">Shooters
+				<input type="checkbox" name="generos" value="Aventura">Aventura
+				<input type="checkbox" name="generos" value="Carreras">Carreras
+			</div>
+			<button type="submit" class="form-button">Guardar</button>
+			<button type="reset" class="form-button">Borrar</button>
+		</form>
+	</main>
+	<%- include('./partials/footer')%>
+</body>
+</html>
