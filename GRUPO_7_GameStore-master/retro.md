@@ -29,3 +29,19 @@ Pensar tanto para resolver 1 punto.
 
 qué deberían dejar de hacer?
 Dejarlo para ultimo momento.
+
+SPRINT 3
+1 - que hicieron bien?
+Conversamos desde el inicio sobre reunirnos para trabajar todos sobre el proyecto y poderlo entregar a tiempo
+
+2 - que hicieron mal?
+Por cuestiones de tiempo nos pudimos reunir solamente la ultima semana
+
+3 - que deberian empezar a hacer?
+Trabajar las tareas por separado
+
+4 - que hacer menos?
+Pensar tanto para resolver 1 punto
+
+5 - que deberian dejar de hacer?
+Dejarlo para ultimo momento
