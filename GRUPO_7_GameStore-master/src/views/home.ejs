@@ -112,101 +112,41 @@
 				<ul class="consoles">
 					<li class="menuBox"><a class="navItems" href="">Xbox</a>
 						<ul class="games xbox">
+							<% for(let i = 0; i < xbox.length -1; i++) { %> 
 							<li class="items">
 								<a href="/detail">
-									<img class="displayMenuImg" src="/img/xbox/battlefieldxbox.jpeg" alt=""> 
-									<p>Battlefield</p>
-									<p>60.99</p>
+									<img class="displayMenuImg" src="/img/xbox/<%= xbox[i].image %> " alt=""> 
+									<p><%= xbox[i].name %></p>
+									<p><%= xbox[i].price %></p>
 								</a>
 							</li>
-							<li class="items">
-								<a href="/detail">
-									<img class="displayMenuImg" src="/img/xbox/justcausexbox.jpeg" alt=""> 
-									<p>Just Cause</p>
-									<p>60.99</p>
-								</a>
-							</li>
-							<li class="items">
-								<a href="/detail">
-									<img class="displayMenuImg" src="/img/xbox/thesurgexbox.jpeg" alt=""> 
-									<p>The Surge</p>
-									<p>60.99</p>
-								</a>
-							</li>
-							<li class="items">
-								<a href="/detail">
-									<img class="displayMenuImg" src="/img/xbox/titalfallxbox.jpeg" alt=""> 
-									<p>Titan Fall</p>
-									<p>60.99</p>
-								</a>
-							</li>
+							<% } %> 
 						</ul>
 					</li>
 					<li class="menuBox"><a class="navItems" href="">PlayStation</a>
 						<ul class="games play">
-							<li class="items">
-								<a href="/detail">
-									<img class="displayMenuImg" src="/img/play/unchartedplay.jpeg" alt=""> 
-									<p>Uncharted 4</p>
-									<p>60.99</p>
-								</a>
-							</li>
-							<li class="items">
-								<a href="/detail">
-									<img class="displayMenuImg" src="/img/play/darksidersplay.jpeg" alt=""> 
-									<p>Darksiders II</p>
-									<p>Death Initive Edition</p>
-									<p>60.99</p>
-								</a>
-							</li>
-							<li class="items">
-								<a href="/detail">
-									<img class="displayMenuImg" src="/img/play/battlefieldplay.jpeg" alt=""> 
-									<p>Battlefield 1</p>
-									<p>60.99</p>
-								</a>
-							</li>
-							<li class="items">
-								<a href="/detail">
-									<img class="displayMenuImg" src="/img/play/destinyplay.jpeg" alt=""> 
-									<p>Destiny 2</p>
-									<p>Expansion II</p>
-									<p>60.99</p>
-								</a>
-							</li>
+							<% for(let i = 0; i < play.length -1; i++) { %> 
+								<li class="items">
+									<a href="/detail">
+										<img class="displayMenuImg" src="/img/play/<%= play[i].image %> " alt=""> 
+										<p><%= play[i].name %></p>
+										<p><%= play[i].price %></p>
+									</a>
+								</li>
+								<% } %> 
 						</ul>
 					</li>
 					<li class="menuBox"><a class="navItems" href="">Nintendo</a>
 						<ul class="games nintendo">
-							<li class="items">
-								<a href="/detail">
-									<img class="displayMenuImg" src="/img/nintendo/marionintendo.jpeg" alt=""> 
-									<p>Super Mario Odyssey</p>
-									<p>60.99</p>
-								</a>
-							</li>
-							<li class="items">
-								<a href="/detail">
-									<img class="displayMenuImg" src="/img/nintendo/octopathnintendo.jpeg" alt=""> 
-									<p>Octopath Traveler</p>
-									<p>60.99</p>
-								</a>
-							</li>
-							<li class="items">
-								<a href="/detail">
-									<img class="displayMenuImg" src="/img/nintendo/splatoonnintendo.jpeg" alt=""> 
-									<p>Splatoon 2</p>
-									<p>60.99</p>
-								</a>
-							</li>
-							<li class="items">
-								<a href="/detail">
-									<img class="displayMenuImg" src="/img/nintendo/zeldanintendo.jpeg" alt=""> 
-									<p>Zelda</p>
-									<p>Breath of the Wild</p>
-									<p>60.99</p>
-								</a>
-							</li>
+							<% for(let i = 0; i < nintendo.length; i++) { %> 
+								<li class="items">
+									<a href="/detail">
+										<img class="displayMenuImg" src="/img/nintendo/<%= nintendo[i].image %> " alt=""> 
+										<p><%= nintendo[i].name %></p>
+										<p><%= nintendo[i].price %></p>
+									</a>
+								</li>
+								<% } %> 
 						</ul>
 					</li>
 					<li class="menuBox"><a class="navItems" href="">Pc</a>
@@ -244,6 +184,7 @@
 				</ul>	
 			</div>
 		</div>
+		
 	</main>
 	<%- include('./partials/footer')%>
 </body>
