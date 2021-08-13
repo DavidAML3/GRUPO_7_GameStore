@@ -97,5 +97,23 @@
         "price":"$35.99",
         "image":"xenoblade.jpeg",
         "stock":4
+    },
+    {
+        "id":12,
+        "name":"The Legend of Zelda: Breath of the Wild",
+        "description":"In this 3D open-world entry in the Zelda series, Link is awakened from a deep slumber without his past memories in the post-apocalyptic Kingdom of Hyrule, and sets off on a journey to defeat the ancient evil Calamity Ganon. Link treks, climbs and glides through fields, forests and mountain ranges while meeting and helping friendly folk and defeating enemies in order to gather up the strength to face Ganon.",
+        "console":"Nintendo",
+        "price":"$23.99",
+        "image":"zelda.jpeg",
+        "stock":6
+    },
+    {
+        "id":13,
+        "name":"Bayonetta 2",
+        "description":"The witching hour strikes again. Brimming with intricate battles that take place in, on and all over epic set pieces, Bayonetta 2 finds our sassy heroine battling angels and demons in unearthly beautiful HD. You’re bound to love how it feels to string together combos with unimaginable weapons and to summon demons using Bayonetta’s Umbran Weave in this frantic stylized action game.",
+        "console":"Nintendo",
+        "price":"$55.99",
+        "image":"bayoneta.jpeg",
+        "stock":7
     }
 ]
