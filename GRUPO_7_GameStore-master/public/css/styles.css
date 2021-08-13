@@ -725,6 +725,10 @@ main .fotos ul{
     width: 35%;
 }
 
+.descripcion-edit {
+  width: 50%;
+}
+
 .cantidad{
     padding: 3px;
 }
@@ -759,6 +763,12 @@ main .fotos ul{
   margin-bottom: 15px;
   font-style: italic;
   display: block;
+}
+
+.precio {
+  width: 30%;
+  padding: 8px;
+  border-radius: 8px;
 }
 
 .control {

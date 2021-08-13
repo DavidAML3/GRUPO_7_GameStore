@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head')%>
+<body>
+	<%- include('./partials/header')%>
+	<main class="main-body">
+		<div class="detalle">
+		   <div class="fotos">
+			  <img class= "fotoProducto" src="/img/fotoProducto.jpg" alt="Foto de Producto">
+			   <div class= "miniFotos">
+				   <ul>
+					   <li><img class="extra" style="width:114px; height:190px;" src="/img/LastofUs2img1.jpg"></li>
+					   <li><img class="extra" style="width:114px; height:190px;" src="/img/LastofUs2img2.jpg"></li>
+					   <li><img class="extra" style="width:114px; height:190px;" src="/img/LastofUs2img3.jpg"></li>
+				  </ul>
+			  </div>
+		   </div>
+			<div class="descripcion">
+			   <h3>PC</h3>
+			   <h2>The Last Of Us part II</h2>
+			   <div class= "estrellas">
+				  <i class="fa fa-star-o" aria-hidden="true"></i>
+				   <i class="fa fa-star-o" aria-hidden="true"></i>
+				   <i class="fa fa-star-o" aria-hidden="true"></i>
+				   <i class="fa fa-star-o" aria-hidden="true"></i>
+				  <i class="fa fa-star-o" aria-hidden="true"></i>
+			   </div>
+			  <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+				   elit. Quo, tempora ullam. Aspernatur accusantium 
+				  distinctio quos aut officia impedit dignissimos 
+				  perferendis non, eum quaerat dolorum sunt, in 
+				  ipsum amet architecto ipsam.
+			  </p>
+			  <form class="cantidad" action="/cantidad" method="GET">
+					<label>Cantidad:</label>
+					<select name="cantidad">
+						<option value="1"selected>1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</form>
+				<div class="añadir">
+					<form action="" method="">         
+						<button class= "boton" type="button"><a href="/cart">Añadir al Carrito</a></button>
+					</form>        
+				</div>
+			</div>
+		</div>
+	</main>
+	<%- include('./partials/footer')%>
+</body>
+</html>

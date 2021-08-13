@@ -1,0 +1,11 @@
+[
+    {
+        "id":1,
+        "name":"The Witcher 3: Wild Hunt",
+        "description":"RPG and sequel to The Witcher 2 (2011), The Witcher 3 follows witcher Geralt of Rivia as he seeks out his former lover and his young subject while intermingling with the political workings of the wartorn Northern Kingdoms. Geralt has to fight monsters and deal with people of all sorts in order to solve complex problems and settle contentious disputes, each ranging from the personal to the world-changing.",
+        "console":"Play",
+        "price":"$59.99",
+        "image":"theWitcher3.jpeg",
+        "stock":72
+    }
+]
